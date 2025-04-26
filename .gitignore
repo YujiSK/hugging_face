@@ -1,3 +1,7 @@
+# auto generated files
+role_classifier_model/
+results/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
