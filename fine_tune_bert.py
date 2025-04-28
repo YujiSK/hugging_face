@@ -30,7 +30,7 @@ tokenized_dataset = dataset.map(tokenize_function, batched=True)
 model_dir = "./role_classifier_model"
 if os.path.exists(model_dir):
     print("学習済みモデルをロードします...")
-    model = BertForSequenceClassification.from_pretrained(model_dir)
+    model = BertForSequenceClassification.from_pretrained(model_dir, ignore_mismatched_sizes=True)
     tokenizer = BertJapaneseTokenizer.from_pretrained(model_dir)
     
     # ラベルエンコーダーもロード

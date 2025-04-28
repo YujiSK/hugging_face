@@ -12,7 +12,7 @@ API_TOKEN = os.getenv("HUGGINGFACE_API_TOKEN")
 classifier = pipeline(
     "text-classification", 
     model="cl-tohoku/bert-base-japanese", 
-    use_auth_token=API_TOKEN
+    token=API_TOKEN
 )
 
 # 発言テキスト
