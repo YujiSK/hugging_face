@@ -69,6 +69,10 @@ db.sqlite3-journal
 instance/
 .webassets-cache
 
+# Sensitive and temporary files
+client_secrets.json
+csv/role_classification_additional.csv
+
 # Scrapy stuff:
 .scrapy
 
