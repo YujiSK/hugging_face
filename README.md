@@ -128,18 +128,6 @@ Utterance,Label
 
 ---
 
-## 🔗 Repository (tentative)
-
-[https://github.com/YujiSK/MeetingRoleClassifier-HF](https://github.com/YujiSK/MeetingRoleClassifier-HF)
-
----
-
-## 📝 License
-
-To be released under the MIT License.
-
----
-
 
 # 🧠 MeetingRoleClassifier-HF (日本語)
 
@@ -260,23 +248,11 @@ python bert.py --input ../csv/role_classification.csv --output ../results/v1_out
 
 ---
 
-## 👤 担当範囲（例：砂川優治）
+## 👤 担当範囲
 
 * CSVデータの並べ替え・集計（`count.py`）
 * モデル推論パイプラインの整備（v1, v2）
 * ディレクトリ設計・バージョン管理
 * コードの可読性向上とエラーハンドリング対応
-
----
-
-## 📎 リンク（仮）
-
-* GitHubリポジトリ：[https://github.com/YujiSK/MeetingRoleClassifier-HF](https://github.com/YujiSK/MeetingRoleClassifier-HF)
-
----
-
-## 📝 ライセンス
-
-MIT License（予定）
 
 ---
