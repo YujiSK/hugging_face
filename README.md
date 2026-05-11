@@ -1,4 +1,4 @@
-# 🧠 MeetingRoleClassifier-HF (English)
+# 🧠 MeetingRoleClassifier-HF
 
 A multimodal analysis tool that classifies and summarizes participant roles in meetings using both **audio and text inputs**.  
 Designed as a research and educational project for analyzing facilitation dynamics and meeting structures.
